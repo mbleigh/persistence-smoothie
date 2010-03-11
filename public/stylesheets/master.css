@@ -1,0 +1,181 @@
+body {
+  font-family: "Museo Sans";
+  color: #333;
+  width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #269;
+}
+
+header, footer, section, nav, aside {
+  display: block;
+}
+
+#top h1 {
+  clear: both;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  background: #333;
+  margin: 15px 0 0;
+  padding: 25px 20px 20px;
+  -webkit-border-radius: 15px;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;  
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#555), to(#222));
+  -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+#user-bar {
+  float: right;
+  background: #ffc;
+  padding: 8px 10px 5px;
+  border: 1px solid #aa7;
+  -webkit-border-radius: 5px;
+  margin: 5px 0 10px;
+}
+
+table {
+  -webkit-border-radius: 10px;
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table tr th, table tr td {
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+table tr th {
+  vertical-align: top;
+}
+
+#menu {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#279), to(#49b));
+  list-style: none;
+  -webkit-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;  
+  margin-bottom: 20px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#menu a {
+  display: block;
+  line-height: 36px;
+  font-size: 20px;
+  color: white;
+  padding: 0 18px;
+  text-decoration: none;
+}
+
+.flash {
+  background: #444;
+  color: white;
+  padding: 8px 10px 5px;
+  -webkit-border-radius: 4px;
+  margin: 20px 0 20px;
+}
+
+.flash ul { list-style: none; margin: 0; padding: 0;}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding: 8px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#000));
+  -webkit-border-radius: 10px;
+  color: white;
+}
+
+.sidebar {
+  background: #ffc;
+  float: right;
+  width: 200px;
+  padding: 10px;
+}
+
+.sidebar h1 {
+  font-size: 20px;
+}
+
+ul.notifications {
+  padding: 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin-right: 250px;
+}
+
+ul.notifications li {
+  font-size: 14px;
+  background: white;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  padding: 5px 10px;
+}
+
+ul.notifications time {
+  float: right;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+dl { font-size: 14px;}
+dt {
+  float:left;
+  text-align: right;
+  width: 130px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 140px;
+}
+
+.social_graph ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social_graph li {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.social_graph li a {
+  display: block;
+  padding: 3px 6px;
+  background: #ddb;
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.social_graph li a:hover {
+  background: #eec;
+  color: black;
+}
+
+h1 em {
+  font-size: 0.8em;
+  opacity: 0.6;
+  font-weight: normal;
+  font-style: normal;
+}

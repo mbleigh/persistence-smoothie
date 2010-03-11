@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Schema4Less - Social Shopping!</title>
+    <%= stylesheet_link_tag 'master' %>
+  </head>
+  <body>
+    <header id="top">
+      <aside id='user-bar'>
+        <% if user_signed_in? %>
+          Welcome, <b><%= current_user.name %></b>. <%= link_to "Sign Out", '/users/sign_out' %>
+        <% else %>
+          <%= link_to 'Sign In', '/users/sign_in' %> |
+          <%= link_to 'Sign Up', '/users/sign_up' %>
+        <% end %>
+      </aside>
+      <h1>Schema4Less</h1>
+      <nav id='menu'>
+        <ul>
+          <li><%= link_to 'Products', '/products' %></li>
+          <li><%= link_to 'People', '/users' %></li>
+          <% if user_signed_in? %>
+            <li><%= link_to 'Notifications', user_path(current_user) %></li>
+          <% end %>
+        </ul>
+      </nav>
+    </header>
+    <% if flash.keys.any? %>
+    <section class='flash'>
+      <ul><% flash.each_pair do |k,v| %>
+        <li><b><%= k.to_s.titleize %>:</b> <%= v%>.</li>
+      <% end %></ul>
+    </section>
+    <% end %>
+    <section id="body">
+      <%= yield %>
+    </section>
+    <footer>
+      Copyright &copy; 2010 Intridea, Inc. No rights reserved.
+    </footer>
+  </body>
+</html>

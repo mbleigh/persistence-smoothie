@@ -1,0 +1,16 @@
+<h1>Products<% if params[:actor]%> with <%= params[:actor] %><% end %></h1>
+<table>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <th><%= link_to image_tag(product.image), product %></th>
+        <td><%= link_to truncate(raw(product.title), 60), product %></td>
+        <% if user_signed_in? && !current_user.purchases.find_by_product_id(product.id.to_s) %>
+          <td><%= button_to 'Purchase', purchase_product_path(product) %></td>
+        <% else %>
+          <td/>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

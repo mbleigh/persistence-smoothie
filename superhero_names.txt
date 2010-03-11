@@ -1,0 +1,450 @@
+Abbess 
+Ablaze 
+Ace 
+Acid 
+Adamant 
+Aegis 
+Airspeed 
+Alaczar 
+AlleyCat 
+Animus 
+Anti-Matter Man 
+Aqualung 
+Arc 
+ArchAngel 
+Argus 
+Armadillo 
+Arsenal 
+Asmodeus 
+Astra 
+Atomaestro 
+Avion 
+Axe 
+BackFlash 
+Badger 
+Ballistique 
+Banelord 
+Baron K 
+Barracuda 
+Basalt 
+Battery 
+Bile 
+Billy Blue Blazes 
+Bird of Prey 
+Black Adept 
+Blackbody 
+Black Falcon 
+Black Light 
+Blackmane 
+BlackShadow 
+Blackthorne 
+Black Wolf 
+Blade Song 
+Blast Off 
+Bloodletter 
+Bloodstone 
+Bloodsword 
+Blood Warrior 
+Bludgeon 
+Blue Raider 
+Brain Child 
+Brain Damage 
+Brain Freeze 
+Brainstorm 
+Briquette 
+Bruja 
+Buck Skin 
+Bull 
+Bulle 
+Bullet 
+Cacophony 
+Calico 
+Captain Combat 
+Captain Gorilla 
+Cat Lord 
+Celcius 
+Chameleon 
+Chaos Hawk 
+Charmer 
+Checkmate 
+Chill 
+Chrome 
+Cinnamon Girl 
+Citius 
+Concussion 
+Condor 
+Core Commander 
+Cortex 
+Cosmos 
+Crimebuster 
+Crimson Advenger 
+Crossfire
+Damask 
+Darkchilde 
+Dark Elf 
+Darkhail 
+DarkKnight 
+Dayglo 
+Deathbolt 
+Death Metal 
+Deathsong 
+Decibelle 
+Der Eisenwolf 
+Dervish 
+Destructeur 
+Detonator 
+Diamond Jim 
+Diana 
+Domino 
+Downsizer 
+Dr. Power 
+Dune 
+Dusk 
+Dwindler
+Eagle Eye 
+Eclipse 
+Edge 
+Elastique 
+Elementalist 
+Elf 
+Eliminator 
+Elusive Butterfly 
+Eradicator 
+Erg 
+Express 
+Eye Tyrant
+Falcon 
+F.A.S.T. 
+Farseer 
+Feedback 
+Felina 
+Felon 
+Firefall 
+Firefight 
+FireFly 
+Flame 
+Flashback 
+Flower Child 
+Fly Girl 
+Force 
+Fracas 
+Freak-Out 
+Frenzy 
+Frequent Flyer 
+Frost 
+Frostbite 
+Fuhrer 
+Fuji
+Gargoyle 
+Gauntlet 
+Geistmeister 
+Gemini 
+Genocide 
+Ghost Girl 
+Giggler 
+Glitter 
+Golden Eagle II 
+Golden Girl 
+Gothyk 
+Green Dragon 
+Grenadier 
+Grido 
+GrimKaiser 
+Ground Zero 
+Guillotine
+Hammer 
+Hammer of God 
+Hardcase 
+Harlequin 
+Headbanger 
+Headhunter 
+Heavy Metal 
+Hellfire 
+Hellrazor 
+Hemlok 
+Herr Krebs 
+Hitman 
+Holocaust 
+Hornet 
+Hunter-Killer
+Ice Fury 
+Ice Storm 
+Imagine 
+Impostor 
+Incandesca 
+Incendie 
+Inferno 
+Infinity 
+Intuition 
+Iron Mask
+Jackdaw 
+Javelin 
+Jester
+Kane 
+Kibosh 
+Krieger 
+Kriegspeil 
+Kutter
+Ladykiller 
+Lady Marmalade 
+Lady Steele 
+Lady Willpower 
+Lenz
+Lichtstrahl 
+Lilith 
+Lithos 
+Lone Star 
+Long Horn
+Mach 5 
+Machete 
+Macro 
+Magnifico 
+Mandrake
+Manslaughter 
+Man-Spider 
+Martinet 
+Material Girl 
+Matte Black 
+Mean Mr. Mustard 
+Mecha 
+Mechanon 
+Megalith 
+Megavolt 
+Mentalita 
+Merc 
+Merry-Andrew 
+Mind Blade 
+Mind Flayer 
+Minus 
+Minx 
+Mist Demon 
+Mollock the Eater of Children 
+Monsier Diamont 
+Moonshooter 
+Moonstone 
+Mr. Otto 
+Mr. Peppermint Man 
+Mr. Soul 
+Mr. Zero 
+Multipleman
+Myriad
+Napalm 
+Nefario 
+Negatron 
+Nemesis 
+Neurosis 
+Nightengale 
+Night Racer 
+Nightshifter 
+Nightstrike 
+Nightswift 
+Nuetron Star 
+Nukewarm
+Oberon 
+Olympia 
+Operative 
+Overdrive 
+Overkill
+Pacificateur 
+Paladin
+Panzer 
+Paragon 
+Parasite 
+Parsec 
+Particle Man 
+Phantom Woman 
+Phaze 
+Photon 
+Portal 
+Powerhouse 
+Power Princess 
+Predator 
+Prism 
+Proletarian 
+Prowler 
+Psi-Borg 
+Psifire 
+Psi Mistress 
+Psion 
+Psychedelic 
+Psyke-Out 
+Psy-kill 
+Pulsar 
+Purple Haze 
+Pyre
+Quad 
+Quadrant 
+QuickSilver
+Radioactive Man 
+Rage 
+Rampager 
+Random 
+Raptor 
+Reaver 
+Recoil 
+Red Baron 
+Red Devil 
+Redline 
+Red Lion 
+Red Rajah 
+Red Spectrum 
+Reflex 
+Replay 
+Restart 
+Retribution 
+Revenant 
+Reverie 
+Rhino 
+Ringmaster 
+Ripclaw 
+Rose 
+Rosetta 
+Roulette 
+Rubberband Man 
+Ruckus
+Sable 
+SabreHawk 
+Sahara 
+Salvo 
+Sandstorm 
+Sargon 
+Savante 
+Savateuse 
+Scari 
+Scarlet Canary 
+Scathe 
+Screaming Hawk 
+Seizure 
+Seker
+Serephena 
+Seventh Son 
+Sgt Steel
+Shadow Dancer 
+ShadowMaster 
+Shadow Queen 
+Shadowscan 
+Shadow Stalker 
+Shadowsword 
+Shadowweaver 
+Shaman 
+Shapeless 
+Shard 
+Sharpshooter 
+Shatter 
+She Cat 
+Shiver 
+Shockwave 
+Shooting Star 
+Shrapnel 
+Silk Spider 
+Silverblade 
+Silverfox 
+Silvershield 
+Silversiren 
+Silver Stilleto 
+Silverstone 
+Silverstreak 
+Silverswift 
+Siphon 
+Sitcom 
+Skylark 
+Smasher 
+Snap 
+Solitaire 
+Soundwave 
+Spartan 
+Spectra 
+Speed Metal 
+Spider 
+Spike 
+Spit 
+Sprite 
+Spud 
+Squid 
+Stalker 
+Starmaster 
+Star Raven 
+Steel 
+Stella Polare 
+Stilleto 
+Sting 
+Stone Mage 
+Stoner 
+Strafe 
+Stryke 
+Studs 
+Sturm 
+Succubus 
+Sunburst 
+Sunspot 
+Supersonic 
+Surf 
+Surge 
+Suzie Lightning
+Tabu
+Talon 
+Tangle 
+Tempest 
+Terra 
+Terrain 
+Testarossa 
+The Adept 
+The Arm 
+The Fool 
+The Horror 
+The Lemurian 
+The Minx 
+The Orb 
+The Ripper 
+The Walrus 
+Thrash 
+Thrasher 
+Thunder 
+Thunderfist 
+Tiffany Jones
+Tigress 
+Torch 
+Torque 
+Torrid 
+Toxic 
+Transformer Man 
+Tri-clops 
+Trident 
+Tundra
+Ultimate Warrior 
+Umbriel 
+Underhand 
+Veil 
+Vesuvius 
+Vigil 
+Violator 
+Vortex
+Wanderer 
+War Cry 
+Warlord 
+Warp 
+Warp Dragon 
+Warp Mind 
+Warp Speed 
+Warp Stone 
+Warp Witch 
+WetWare 
+Whipcord 
+Whirlwind 
+Whiskeyjack 
+Whitecap 
+Whitefeather 
+Widow Maker 
+Wildthing 
+Windchill 
+Windstorm 
+Winter Wolf 
+Wraith 
+Wrecker
+X-1 - The Negative Man
+X-Calibre
+Yellow Rose 
+Zapp 
+Zenith 
+Zero 
+Zodiac

@@ -1,0 +1,38 @@
+<aside class='sidebar social_graph'>
+  <h1>Followings <em>(<%= @followings.size %>)</em></h1>
+
+  <ul><% @followings.each do |u| %>
+    <li><%= link_to u.name, u %></li>
+  <% end %></ul>
+
+  <h1>Followers <em>(<%= @followers.size%>)</em></h1>
+
+  <ul><% @followers.each do |u| %>
+    <li><%= link_to u.name, u %></li>
+  <% end %></ul>
+
+  <h1>Friends <em>(<%= @friends.size %>)</em></h1>
+
+  <ul><% @friends.each do |u| %>
+    <li><%= link_to u.name, u %></li>
+  <% end %></ul>
+</aside>
+
+<section id='main'>
+  <h1><%= @user.name %>'s Profile</h1>
+  
+  <h2>Purchases</h2>
+  <% for product in @user.products %>
+    <%=link_to image_tag(product.image, :title => product.title), product %>
+  <% end %>
+  
+  <h2>News Feed</h2>
+  <ul class='notifications'>
+  <% for notification in Notification.for_user(@user, 20) %>
+    <li>
+      <time><%= time_ago_in_words(Time.parse(notification.timestamp)) %> ago</time>
+      <span class='message'><%=raw notification.message %></span>
+    </li>
+  <% end %>
+  </ul>
+</section>

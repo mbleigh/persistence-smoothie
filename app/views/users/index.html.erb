@@ -1,0 +1,14 @@
+<table>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= link_to user.name, user %></td>
+        <% if user_signed_in? && user != current_user && !current_user.following?(user) %>
+          <td><%= button_to 'Follow', follow_user_path(user) %></td>
+        <% else %>
+          <td/>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

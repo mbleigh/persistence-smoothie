@@ -1,0 +1,19 @@
+<h1><%= @product.title %></h1>
+<table>
+  <tbody>
+    <tr>
+      <th><%= image_tag(@product.image) %></th>
+      <td>
+        <dl>
+          <% @product.info.each_pair do |k, v| %>
+            <% if k == 'cast'%>
+              <dt>Cast:</dt><dd><%=raw v.map{|actor| link_to(actor, products_path(:actor => actor))}.to_sentence %></dd>
+            <% else %>
+              <dt><%= k.titleize %>:</dt><dd><%= v %>&nbsp;</dd>
+            <% end %>
+          <% end %>
+        </dl>
+      </td>
+    </tr>
+  </tbody>
+</table>
