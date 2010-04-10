@@ -1,7 +1,7 @@
 namespace :db do
   namespace :redis do
     task :reset => :environment do
-      Red.flush_all
+      Red.flushall
       puts "-- Redis Reset"
     end
   end

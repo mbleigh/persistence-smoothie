@@ -1,8 +1,12 @@
 class ProductsController < ApplicationController
   def index
-    conditions = {}
-    conditions.merge!('info.cast' => params[:actor]) if params[:actor]
-    @products = Product.all(:conditions => conditions, :sort => ['title', 1], :limit => 50)
+    if params[:sort] == 'social'
+      @products = Product.by_social_graph(current_user)
+    else
+      conditions = {}
+      conditions.merge!('info.cast' => params[:actor]) if params[:actor]
+      @products = Product.all(:conditions => conditions, :sort => ['title', 1], :limit => 50)
+    end
   end
   
   def purchase

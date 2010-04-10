@@ -17,15 +17,19 @@ header, footer, section, nav, aside {
   clear: both;
   font-size: 60px;
   text-align: center;
-  color: white;
-  background: #333;
+  color: rgba(255,255,255,0.5);
+  background: #711;
   margin: 15px 0 0;
   padding: 25px 20px 20px;
   -webkit-border-radius: 15px;
   -webkit-border-bottom-left-radius: 0;
   -webkit-border-bottom-right-radius: 0;  
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#555), to(#222));
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#711), to(#511));
   -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+#top h1 span {
+  color: white;
 }
 
 #user-bar {
@@ -55,7 +59,7 @@ table tr th {
 }
 
 #menu {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#279), to(#49b));
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#911), to(#731));
   list-style: none;
   -webkit-border-bottom-left-radius: 8px;
   -webkit-border-bottom-right-radius: 8px;  

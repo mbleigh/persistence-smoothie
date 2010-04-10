@@ -2,14 +2,13 @@
 source 'http://gemcutter.org'
 
 
-gem "rails", "3.0.0.beta"
+gem "rails", "3.0.0.beta2"
 
 gem 'rails3-generators'
-gem 'gloo', '>= 0.0.0.alpha.1', :git => 'git@github.com:intridea/gloo.git'
 
 gem 'haml'
 
-gem 'mongo_ext', '0.19.1', :require => 'mongo'
+gem 'mongo_ext', '0.19.3', :require => 'mongo'
 gem 'mongo_mapper'
 gem 'warden'
 gem 'devise', '>= 1.1.pre4'

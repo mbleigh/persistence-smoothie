@@ -1,4 +1,4 @@
-<h1><%= @product.title %></h1>
+<h1><%= @product.title %> (<%= pluralize @product.sales, 'sale' %>)</h1>
 <table>
   <tbody>
     <tr>
@@ -17,3 +17,11 @@
     </tr>
   </tbody>
 </table>
+
+<h2>Purchased By</h2>
+
+<ul>
+  <% @product.users.each do |user| %>
+    <li><%= link_to user.name, user %></li>
+  <% end %>
+</ul>

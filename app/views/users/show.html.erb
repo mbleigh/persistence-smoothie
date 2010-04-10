@@ -1,5 +1,5 @@
 <aside class='sidebar social_graph'>
-  <h1>Followings <em>(<%= @followings.size %>)</em></h1>
+  <h1>Follows <em>(<%= @followings.size %>)</em></h1>
 
   <ul><% @followings.each do |u| %>
     <li><%= link_to u.name, u %></li>

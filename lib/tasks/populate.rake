@@ -67,22 +67,24 @@ namespace :populate do
     
     task :movies => :environment do
       puts '== Populating Movies...'
-      for query in %w(batman superman spiderman trek vampires zombies)
-        results = Amazon::Ecs.item_search(query, {:search_index => 'DVD', :response_group => 'Medium', :sort => 'salesrank'})
-    
-        results.items.each do |movie|
-          atts = movie.get_hash(:itemattributes)
-          Product.create(
-            :type => 'Movie',
-            :image => movie.get('smallimage/url'),
-            :title => movie.get('title'),
-            :info => {
-              :cast => movie.get_array('actor'),
-              :review => movie.get('editorialreview/content'),
-              :running_time => movie.get('itemattributes/runningtime').to_i
-            }
-          )
-          puts " + #{atts[:title]}"
+      for query in %w(zombies)
+        for page in 1..4
+          results = Amazon::Ecs.item_search(query, {:search_index => 'DVD', :response_group => 'Medium', :sort => 'salesrank', :item_page => page})
+        
+          results.items.each do |movie|
+            atts = movie.get_hash(:itemattributes)
+            Product.create(
+              :type => 'Movie',
+              :image => movie.get('smallimage/url'),
+              :title => movie.get('title'),
+              :info => {
+                :cast => movie.get_array('actor'),
+                :review => movie.get('editorialreview/content'),
+                :running_time => movie.get('itemattributes/runningtime').to_i
+              }
+            )
+            puts " + #{atts[:title]}"
+          end
         end      
       end
     
@@ -91,4 +93,6 @@ namespace :populate do
     
     task :all => ['populate:amazon:books', 'populate:amazon:movies']
   end
+  
+  task :all => ['populate:users', 'populate:follow', 'populate:amazon:all', 'populate:purchase']
 end

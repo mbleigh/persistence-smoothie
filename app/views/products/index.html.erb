@@ -1,4 +1,9 @@
-<h1>Products<% if params[:actor]%> with <%= params[:actor] %><% end %></h1>
+
+<% if current_user %>
+  <div style='float:right;'><%= link_to *(params[:sort] == 'social' ? ['Sort Alphabetically', {:sort => nil}] : ['Sort Socially', {:sort => 'social'}])%></div>
+<% end %>
+
+<h1>Products<% if params[:sort] == 'social' %> popular with my follows<% end %><% if params[:actor]%> with <%= params[:actor] %><% end %></h1>
 <table>
   <tbody>
     <% @products.each do |product| %>
