@@ -8,5 +8,5 @@ Freely available for any and all reasons to anyone for any reason. Written by Mi
 
 ## Slide Deck
 
-* **RubyNation Version:** [[slideshare](http://www.slideshare.net/mbleigh/persistence-smoothie-blending-sql-and-nosql-rubynation-edition)] [[download]](http://github.com/downloads/mbleigh/persistence-smoothie/Persistence%2520Smoothie%2520-%2520RubyNation.pdf)
-* **Confoo Version:** [[slideshare]](http://www.slideshare.net/mbleigh/persistence-smoothie) [[download](http://www.slideshare.net/mbleigh/persistence-smoothie/download)]
+* **RubyNation Version:** [[slideshare]](http://www.slideshare.net/mbleigh/persistence-smoothie-blending-sql-and-nosql-rubynation-edition) [[download]](http://github.com/downloads/mbleigh/persistence-smoothie/Persistence%2520Smoothie%2520-%2520RubyNation.pdf)
+* **Confoo Version:** [[slideshare]](http://www.slideshare.net/mbleigh/persistence-smoothie) [[download]](http://www.slideshare.net/mbleigh/persistence-smoothie/download)
